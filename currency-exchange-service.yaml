@@ -20,7 +20,7 @@ spec:
         app.kubernetes.io/name: currency-exchange-app-v1
     spec:
       containers:
-      - image: infomarcy/currency-exchange-service:v1
+      - image: public.ecr.aws/l6m2t8p7/docker-2048:latest
         imagePullPolicy: Always
         name: currency-exchange-app-v1
         ports:
